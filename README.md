@@ -12,6 +12,7 @@ O objetivo principal é ilustrar a integração de modelos de linguagem (LLMs) c
 * **Catálogo Interno de Imóveis:** Possui um catálogo fictício de empreendimentos (casas, apartamentos, etc.) com detalhes e status (à venda, locação).
 * **Busca Dinâmica:** Realiza buscas primeiro no catálogo interno. Se não encontrar o imóvel específico no bairro ou se o bairro não existir no catálogo, busca na internet usando a ferramenta Google Search.
 * **Busca Web Integrada:** Apresenta resultados da busca na web com links clicáveis (em ambientes que suportam Markdown, como o Google Colab).
+* **Além do catalogo:** Ao pesquisar por imoveis fora do catalogo interno, faz perguntads como orçamento, se prefere perto de transporte publico, para sugerir sites de pesquisa de imoveis.
 * **Gestão de Conversa:** Lida com saudações e permite conversas fora do contexto de busca de imóveis por um número limitado de vezes, encerrando a conversa cordialmente se o foco em imóveis for perdido.
 * **Output Formatado:** Apresenta as respostas formatadas em Markdown para melhor legibilidade na saída do console ou notebook.
 
@@ -72,14 +73,12 @@ Para executar este projeto no ambiente Google Colab:
 * Melhorar o tratamento de erros e a experiência do usuário em caso de falhas na busca ou API.
 * Permitir que o usuário selecione um imóvel específico dos resultados para ver mais detalhes (se disponíveis).
 
-## Licença
-
-Este projeto está sob a Licença [Escolha uma licença, por exemplo, MIT ou Apache 2.0]. Veja o arquivo `LICENSE` para mais detalhes. *(Seu repositório no GitHub deve conter um arquivo chamado `LICENSE` com o texto da licença escolhida).*
-
 ## Autor
 
-[Seu Nome ou Nome de Usuário do GitHub]
+Sandro Neri de Paiva
+SandroPaiva (https://github.com/SandroPaiva)
+
 
 ## Repositório
 
-[Link para o seu Repositório no GitHub (será o link do próprio repositório onde o README estará)]
+https://github.com/SandroPaiva/projeto_chatbot_alura/edit/main/README.md
